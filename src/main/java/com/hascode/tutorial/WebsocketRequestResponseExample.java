@@ -12,7 +12,7 @@ import reactor.core.publisher.Mono;
 
 public class WebsocketRequestResponseExample {
 
-  public static void main(String[] args) throws Exception {
+  public static void main(String[] args) {
     final int port = 7777;
 
     RSocket responseHandler = new AbstractRSocket() {
